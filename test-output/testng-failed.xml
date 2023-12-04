@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.itview.testcases.Data_Driven_FixedDeposit">
+      <class name="com.itview.testcases.CarHomeTest">
         <methods>
-          <include name="verifyFixedDeposit_SI"/>
-          <include name="afterTest"/>
-          <include name="openBrowser"/>
+          <include name="postCondition"/>
+          <include name="preConidition"/>
+          <include name="carHomeLoanEMI"/>
         </methods>
-      </class> <!-- com.itview.testcases.Data_Driven_FixedDeposit -->
+      </class> <!-- com.itview.testcases.CarHomeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
